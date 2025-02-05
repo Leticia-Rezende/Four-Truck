@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+.center{
+    background-color: rgb(51, 54, 56);
+    list-style: none;
+    padding: 0;
+}
+header{
+    padding: 20px 0;
+}
+img{
+    width: 400px ;
+}
+
+.center.logo{
+    width: 50%;
+    display: flex;
+    right: 20px;
+}
+
+.menu{
+    display: inline;
+}
+.menu a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+.menu a:hover{
+    background-color: rgb(184, 184, 98);
+}
